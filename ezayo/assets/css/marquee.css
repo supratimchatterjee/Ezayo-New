@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+.uk-badge {
+  font-size: 10px;
+  padding: 0 5px;
+}
+.marquee-container {
+position: relative;
+font-family: 'Cabin', sans-serif;
+}
+.marquee-caption {
+	z-index: 5;
+position: absolute;
+color:#fff;
+left: 0;
+top: 0;
+bottom: 0;
+width: 70px;
+background-color: #00659f;
+padding: 0 24px 0 19px;
+line-height: 41px;
+font-size: 18px;
+
+}
+
+.marquee-caption img { width: 100%}
+.marquee {
+  background: #fff;
+  overflow-x: hidden;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.marquee ul {
+  visibility: hidden;
+}
+.marquee .js-marquee-wrapper ul {
+  visibility: visible;
+}
+.marquee .marquee_one,
+.marquee .marquee_two {
+  padding: 8px;
+  box-sizing: border-box;
+}
+.marquee .bg {
+  background: #00659f;
+}
+.marquee .bg a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.marquee .bg a .date {
+  color: #b2b1b6;
+  padding-left: 0px;
+}
+.marquee .marquee_two a {
+  color: #2a4c9f;
+  text-decoration: none;
+}
+
+.marquee .marquee_two a .date {
+  color: #b2b1b6;
+  padding-left: 5px;
+}
+.marquee .js-marquee-wrapper:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.marquee .js-marquee-wrapper ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.marquee .js-marquee-wrapper ul li {
+  float: left;
+  margin-right: 22px;
+}
+.marquee .js-marquee-wrapper ul li:last-child {
+  margin-right: 0;
+}
+.marquee .js-marquee-wrapper ul li a {
+  display: block;
+}
+.marquee .js-marquee-wrapper ul li a span {
+  float: left;
+  line-height: 17px;
+}
+.marquee .js-marquee-wrapper ul li a span.uk-badge {
+  margin-right: 13px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+  .marquee-container {
+    display: none;
+  }
+}

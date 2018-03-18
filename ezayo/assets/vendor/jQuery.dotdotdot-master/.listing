@@ -1,0 +1,11 @@
+drwxr-xr-x   3 sgtransfer.ftp.ezayocom ezayocom     4096 Jul  6 08:10 .
+drwxr-xr-x   7 sgtransfer.ftp.ezayocom ezayocom     4096 Jul  6 10:48 ..
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom      116 Jul  6 08:10 .gitignore
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     1081 Jul  6 08:10 LICENSE.txt
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     3151 Jul  6 08:10 README.md
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom      587 Jul  6 08:10 bower.json
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom      427 Jul  6 08:10 dotdotdot.jquery.json
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     1158 Jul  6 08:10 gulpfile.js
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom    10220 Jul  6 08:10 index.html
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom      744 Jul  6 08:10 package.json
+drwxr-xr-x   2 sgtransfer.ftp.ezayocom ezayocom     4096 Jul  6 08:10 src

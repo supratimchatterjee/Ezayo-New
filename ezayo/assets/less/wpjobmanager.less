@@ -1,0 +1,246 @@
+.job-manager-form {
+
+	.job-manager-term-checklist { padding-left: 0; }
+
+	.fieldset-job_industry,
+	.fieldset-job_functions,
+	.fieldset-custom_company_name,
+	.fieldset-yoast_wpseo_primary_job_function,
+	.fieldset-yoast_wpseo_primary_job_industry { display: none; }
+
+	.fieldset-job_industry small { display: none; }
+
+	.job-manager-term-checklist-job_functions {
+
+		> li {
+			display: none;
+
+			> .selectit { display: none; }
+
+			ul {
+				padding-left: 0;
+
+				li {
+					margin-left: 0;
+					position: relative;
+				}
+			}
+
+		}
+	}
+
+	.fieldset-job_category {
+		position: relative;
+		&.field-disabled:after {
+			position: absolute;
+			display: block;
+			content: '';
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: #fff;
+			z-index: 2;
+			opacity: 0.8;
+		}
+	}
+
+	.job-manager-term-checklist-job_functions,
+	.job-manager-term-checklist-job_industry {
+
+		li { position: relative; }
+
+		.make-primary {
+			position: absolute;
+			right: 10px;
+			top: 0;
+			font-size: 12px;
+			line-height: 32px;
+			color: #00659f;
+			display: none;
+			cursor: pointer;
+		}
+		.children {
+			li:hover {
+				> .make-primary {
+					display: block;
+				}
+			}
+		}
+		.this-primary {
+			background-color: rgba(255, 216, 0, 0.5);
+
+			.make-primary { display: block; }
+		}
+
+	}
+
+	.job-manager-term-checklist-job_industry {
+		li:hover {
+			> .make-primary {
+				display: block;
+			}
+		}
+	}
+
+	.jmfe-clear-radio { display: none !important; }
+
+	.fieldset-custom_company_name {
+		small { display: none; }
+	}
+
+	.fieldset-search_firm_post { display: none; }
+
+	.fieldset-job_category { display: none; }
+
+	.fieldset-job_latlng,
+	.fieldset-job_location_city,
+	.fieldset-job_location_state,
+	.fieldset-job_location_country { display: none; }
+
+
+	.fieldset-job_pay {
+		.field { padding-right: 100px; box-sizing: border-box; }
+		.slider-container { width: 100% !important; display: inline-block; }
+
+		.range-view {
+			border: 1px solid #ccc;
+			padding: 5px 10px;
+			background: #f2f2f2;
+			display: inline-block;
+			line-height: 1;
+		}
+	}
+
+	.fieldset-job_pay_type {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		border: 0;
+
+		label { display: none; }
+
+		.field {
+			width: 70px;
+			position: absolute;
+			right: 0;
+			top: -55px;
+
+			small { display: none; }
+		}
+	}
+}
+
+.user-is-search-firm .fieldset-search_firm_post { display: block; }
+.user-is-search-firm .fieldset-job_category { display: block; }
+
+
+.subscribe-form {
+	.uk-modal-dialog {
+		padding: 40px;
+		border-top: 5px solid #00659f;
+		max-width: 400px;
+
+		.uk-close {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background: #00659f;
+			opacity: 1;
+			color: #fff;
+			width: 25px;
+		}
+	}
+
+	legend {
+		font-size: 18px;
+		border: 0;
+		color: #0077dd;
+		text-transform: capitalize;
+		font-weight: 500;
+
+		&:after {
+			display: none;
+		}
+	}
+
+}
+
+#job_package_selection {
+	display: none;
+}
+
+.no_job_listings_found {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*==Sidebar Filter==*/
+.widget-area{
+	.filter-block {
+		.filter-top {
+			display: none;
+			.facetwp-counts {
+				float: left;
+				line-height: 30px;
+				color: #000;
+				font-weight: 700;
+			}
+			p { float: right; }
+		}
+		.uk-panel {
+			.facetwp-facet-companies {
+				max-height: 265px;
+				overflow-y: auto;
+				margin-bottom: 15px !important;
+			}
+		}
+		&.widget {
+			@media only screen and (max-width: 767px) {
+				position: fixed;
+				top: 130px;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				display: none;
+				z-index: 99;
+				padding: 20px 0;
+				background: #fff;
+				.filter-top {
+					display: block;
+				}
+				.filter-block {
+					overflow: scroll;
+					height: 100%;
+					padding-bottom: 0;
+					padding-top: 0;
+
+				}
+			}
+		}
+	}
+}
+.open-filter {
+	@media only screen and (max-width: 767px) {
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+	}
+	.widget-area {
+		.filter-block {
+			@media only screen and (max-width: 767px) {
+				display: block;
+			}
+		}
+	}
+}
+/*==End==*/
+
+/*==WP-Job-Manager: frontedn.css ==*/
+.job-manager-message.job-manager-message {border-top-color:#00659f }
+.job-manager-error.job-manager-message:before,
+.job-manager-info.job-manager-message:before,
+.job-manager-message.job-manager-message:before { color:#00659f; }
+
+.fieldset-search_firm_post small { display: none; }

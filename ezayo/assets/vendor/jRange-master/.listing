@@ -1,0 +1,11 @@
+drwxr-xr-x   3 sgtransfer.ftp.ezayocom ezayocom     4096 Jun 29 01:45 .
+drwxr-xr-x   7 sgtransfer.ftp.ezayocom ezayocom     4096 Jul  6 10:48 ..
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom       20 Jun 29 01:45 .gitignore
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     1079 Jun 29 01:45 LICENSE
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom      162 Jun 29 01:45 README.md
+drwxr-xr-x   3 sgtransfer.ftp.ezayocom ezayocom     4096 Jun 29 01:45 demo
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     8236 Jun 29 01:45 jquery.range-min.js
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     5644 Jun 29 01:45 jquery.range.css
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom    13250 Jun 29 01:45 jquery.range.js
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom     7901 Jun 29 01:45 jquery.range.less
+-rw-r--r--   1 sgtransfer.ftp.ezayocom ezayocom      583 Jun 29 01:45 package.json
